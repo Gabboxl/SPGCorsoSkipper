@@ -1,6 +1,6 @@
 {
   "name": "SPG Corso Skipper",
-  "version": "2.0",
+  "version": "1.0.0",
   "manifest_version": 2,
   "description": "Skippa tutte le video-lezioni dei corsi SPG senza vedere i video fino alla fine.",
   "icons": {
