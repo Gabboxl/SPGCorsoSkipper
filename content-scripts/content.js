@@ -11,7 +11,7 @@ chrome.runtime.onMessage.addListener(function(sendResponse) {
     http.onreadystatechange = function() {//Call a function when the state changes.
         if(http.readyState == 4 && http.status == 200) {
             alert("Fatto! Ora puoi passare al video successivo! - Estensione creata da gabboxl.ga");
-        } else {
+        } else if (http.status != 200){
             alert("Si è verificato un errore nello skip del video! Ricorda che deve essere eseguito questo strumento per ogni video consecutivamente, senza saltare pagine di video non visualizzati.");
         }
     }
