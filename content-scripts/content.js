@@ -17,5 +17,5 @@ chrome.runtime.onMessage.addListener(function(sendResponse) {
     }
     http.send(params);
     
-  sendResponse({ fromcontent: "This message is from content.js" });
+  sendResponse({ fromcontent: "yo bella tutto funziona" });
 });
